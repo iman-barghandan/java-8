@@ -6,6 +6,7 @@ import sort.SortByAge;
 import sort.SortByLengthLastName;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -36,7 +37,13 @@ public class MainClass
         arrayListFilter.forEach(System.out::println);
         System.out.println("**********************************");
 
-
+        //Stream anyMatch:
+        System.out.println("anyMatch: ");
+        List<Integer> list = Arrays.asList(1,2,3,4,5,10);
+        boolean result = list.stream().anyMatch(p -> ((p*2)+2-1)/7==3);
+        System.out.println("result: " + result);
+        //if "10" was not in the list --> result = false
+        System.out.println("**********************************");
 
 
     }
