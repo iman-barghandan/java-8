@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cb587bc-2f18-41ac-ae2e-926a23106d2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +44,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="person" />
       <recent name="filter" />
       <recent name="sort" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="java8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -69,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575728113040</updated>
-      <workItem from="1575728115729" duration="1309000" />
+      <workItem from="1575728115729" duration="1557000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="start proje">
       <created>1575728217900</created>
@@ -107,7 +123,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
       <updated>1575729336537</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎۰۰۰۰۷" summary="create class PersonObjects&#10;get list of Person&#10;return list">
+      <created>1575729516197</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1575729516197</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,12 +142,13 @@
     <MESSAGE value="create class SortByLengthLastName" />
     <MESSAGE value="create class ListOfLastName&#10;get list of lastname&#10;return list" />
     <MESSAGE value="create class FilterByCityAndZone&#10;String city and int zone&#10;return 1 Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="create class FilterByCityAndZone&#10;String city and int zone&#10;return 1 Stream" />
+    <MESSAGE value="create class PersonObjects&#10;get list of Person&#10;return list" />
+    <option name="LAST_COMMIT_MESSAGE" value="create class PersonObjects&#10;get list of Person&#10;return list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="590" y="0" key="CommitChangelistDialog2" timestamp="1575729335882">
+    <state x="590" y="0" key="CommitChangelistDialog2" timestamp="1575729515541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="590" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575729335882" />
+    <state x="590" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575729515541" />
   </component>
 </project>
