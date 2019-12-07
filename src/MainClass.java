@@ -1,3 +1,4 @@
+import filter.FilterByCityAndZone;
 import person.Person;
 import person.PersonObjects;
 import sort.ListOfLastName;
@@ -6,6 +7,7 @@ import sort.SortByLengthLastName;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class MainClass
 {
@@ -27,6 +29,14 @@ public class MainClass
         List<String> stringList = ListOfLastName.execute(arrayListLastName);
         stringList.forEach(System.out::println);
         System.out.println("**********************************");
+
+        //filter city and zone:
+        System.out.println("filter city and zone: ");
+        Stream<Person> arrayListFilter = FilterByCityAndZone.execute(arrayListPerson,"tehran" , 5);
+        arrayListFilter.forEach(System.out::println);
+        System.out.println("**********************************");
+
+
 
 
     }
