@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class MainClass
@@ -53,6 +54,18 @@ public class MainClass
         System.out.println("the longest(max) string: ");
         stringOptional.ifPresent(System.out::println);
         System.out.println("**********************************");
+
+        //Stream peek:
+        System.out.println("without peek: ");
+        List<Integer> integerList1 = Arrays.asList(1,2,3,4,5);
+        List<Integer> newList1 = integerList1.stream().collect(Collectors.toList());
+        System.out.println(newList1);
+        System.out.println("____________________________________");
+        System.out.println("with peek: ");
+        List<Integer> integerList2 = Arrays.asList(1,2,3,4,5);
+        List<Integer> newList2 = integerList2.stream().peek(System.out::println).collect(Collectors.toList());
+        System.out.println(newList2);
+        // using Stream peek without any terminal operation does nothing!!
 
 
     }
