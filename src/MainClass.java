@@ -8,6 +8,7 @@ import sort.SortByLengthLastName;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class MainClass
@@ -43,6 +44,14 @@ public class MainClass
         boolean result = list.stream().anyMatch(p -> ((p*2)+2-1)/7==3);
         System.out.println("result: " + result);
         //if "10" was not in the list --> result = false
+        System.out.println("**********************************");
+
+        //Stream reduce:
+        System.out.println("reduce: ");
+        List<String> stringList1 = Arrays.asList("iman","ali","mohammad","mohammadreza");
+        Optional<String> stringOptional = stringList1.stream().reduce((r1 , r2) -> r1.length() > r2.length() ? r1 : r2);
+        System.out.println("the longest(max) string: ");
+        stringOptional.ifPresent(System.out::println);
         System.out.println("**********************************");
 
 
